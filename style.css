@@ -1,0 +1,129 @@
+nav h4{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+ 
+nav a{
+    float: right;
+    margin: 60px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+}
+
+#container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#content h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#content h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+#content button{
+    font-size: 15px;
+    padding: 15px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#loadingpage{
+    width: 100%;
+    height: 100vh;
+    background:url(https://travel-diary-complete.webdevdev1.repl.co/cn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+    margin: 0;
+    padding:0
+}
+
+
+#galleryDiv{
+    font-size: 15px;
+    padding: 15px 25px;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.h4{
+   
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    font-size: 40px;
+   
+}
+
+.h1{
+     
+     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+   
+}
+
+
+
+#imageGallery{
+    display: flex;
+justify-content: space-evenly;   
+
+}
+
+.card img{
+  height: 90%;
+  width: 90%;   
+
+    
+}
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    background: black;
+}
+
+.icons{
+    height: 18vh;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+
+
+}
+
+
+.icons img{
+    height: 70px;
+    width: 70px;
+}
